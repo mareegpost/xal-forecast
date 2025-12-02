@@ -1,0 +1,6 @@
+streamlit==1.28.1
+pandas==1.5.3
+prophet==1.1.5
+plotly==5.18.0
+requests==2.31.0
+weasyprint==60.2
