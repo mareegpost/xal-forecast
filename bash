@@ -1,4 +1,2 @@
-cd xal-forecast
-git add .
-git commit -m "v1.0 bulletproof"
-git push origin main
+# activate your venv if you use one, then:
+pip install scikit-learn pandas numpy streamlit matplotlib plotly
