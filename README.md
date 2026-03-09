@@ -1,20 +1,44 @@
-# 🐐 Goat Qiime - AI Goat Price Predictor
+# 🐐 Ari Qiime - AI Goat Price Predictor
 
-Web app-kaan wuxuu isticmaalaa Artificial Intelligence si uu u qiyaaso qiimaha geela Soomaaliyeed.
+Web app-kaan wuxuu isticmaalaa Artificial Intelligence si uu u qiyaaso qiimaha ariga Soomaaliyeed.
 
-## 🌍 Luqadaha (Languages)
-- Af-Soomaali (Somali)
-- English
+## 🚀 Deployment
 
-## 🚀 Soo deg (Deployment)
+### Streamlit Cloud (Recommended)
+1. Push code to GitHub
+2. Connect to [share.streamlit.io](https://share.streamlit.io)
+3. Deploy automatically
 
-### Option 1: Streamlit Cloud (Free & Easiest)
-1. U samee repository GitHub
-2. Tag https://share.streamlit.io
-3. Connect GitHub repo-gaaga
-4. **Done!** Waa bilaash oo weligeed shaqeynaya
+### Requirements
+- Python 3.11+ (specified in `.python-version`)
+- All packages are pre-built wheels (no compilation)
 
-### Option 2: Run Locally
-```bash
-pip install -r requirements.txt
-streamlit run app.py
+## 📁 Files
+
+| File | Purpose |
+|------|---------|
+| `app.py` | Main application |
+| `requirements.txt` | Dependencies (compatible versions) |
+| `.python-version` | Python 3.11 specification |
+| `README.md` | Documentation |
+
+## 🌍 Features
+
+- ✅ Bilingual: Somali + English
+- ✅ 150 sample goats with realistic data
+- ✅ Interactive AI training visualization
+- ✅ Real-time price prediction
+- ✅ Multiple chart types (Plotly)
+- ✅ Mobile-friendly design
+
+## 🎓 Learning Outcomes
+
+Students will understand:
+1. How AI learns from data
+2. Feature importance (weight, age, health)
+3. Model evaluation (accuracy, error)
+4. Real-world application to Somali markets
+
+**100% Free. No installation. Works on any phone.**
+
+Made for Somali university students 🇸🇴
