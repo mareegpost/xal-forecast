@@ -1,5 +1,5 @@
 """
-Ari Qiime - AI Goat Price Predictor
+Geel Qiime - AI Goat Price Predictor
 Optimized for Streamlit Cloud (Python 3.14)
 Bilingual: Somali + English
 """
@@ -16,7 +16,7 @@ import plotly.graph_objects as go
 # ============== PAGE SETUP ==============
 
 st.set_page_config(
-    page_title="Ari Qiime 🐐",
+    page_title="Geel Qiime 🐐",
     page_icon="🐐",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -133,7 +133,7 @@ st.sidebar.info("""
 
 if page == "🏠 Hoyga / Home":
     
-    st.markdown('<p class="main-header">🐐 Ari Qiime</p>', unsafe_allow_html=True)
+    st.markdown('<p class="main-header">🐐 Geel Qiime</p>', unsafe_allow_html=True)
     st.markdown('<p class="sub-header">AI Goat Price Predictor for Somalia</p>', unsafe_allow_html=True)
     
     col1, col2 = st.columns(2)
@@ -189,7 +189,7 @@ if page == "🏠 Hoyga / Home":
 
 elif page == "📊 Xogta / Data":
     
-    st.header("📋 Xogta Aria / Goat Data")
+    st.header("📋 Xogta Geela / Goat Data")
     
     tab1, tab2 = st.tabs(["📊 Table / Jedwal", "📈 Stats / Tirakoobyada"])
     
@@ -286,7 +286,7 @@ elif page == "🤖 Barashada / Training":
     fig.add_trace(go.Scatter(
         x=y_test, y=predictions,
         mode='markers',
-        name='Ari / Goats',
+        name='Geel / Goats',
         marker=dict(size=10, color='green', opacity=0.6)
     ))
     
@@ -312,7 +312,7 @@ elif page == "🤖 Barashada / Training":
 
 elif page == "💰 Qiyaas / Predict":
     
-    st.header("🔮 Qiyaas Ari Cusub / Predict New Goat")
+    st.header("🔮 Qiyaas Geel Cusub / Predict New Goat")
     
     st.markdown("""
     <div class="info-banner">
@@ -370,14 +370,14 @@ elif page == "💰 Qiyaas / Predict":
         
         # Feedback
         if predicted > 85:
-            st.success("🌟 Qiimo sare! / High price! - Ari wanaagsan / Good goat")
+            st.success("🌟 Qiimo sare! / High price! - Geel wanaagsan / Good goat")
         elif predicted > 70:
             st.info("👍 Qiimo dhexdhexaad / Fair price")
         else:
             st.warning("⚠️ Qiimo hoose / Low price - Hubi caafimaadka / Check health")
         
         # Similar goats
-        st.subheader("Ari La Mid Ah / Similar Goats")
+        st.subheader("Geel La Mid Ah / Similar Goats")
         
         similar = df[
             (df['daDa_bilaha'].between(age-2, age+2)) &
@@ -420,7 +420,7 @@ elif page == "📈 Sawirro / Charts":
                 'qiimaha_usd': 'Qiimaha ($) / Price',
                 'caafimaadka': 'Caafimaadka / Health'
             },
-            title='Ari: Miisaanka, Qiimaha, iyo Caafimaadka / Goats: Weight, Price & Health',
+            title='Geel: Miisaanka, Qiimaha, iyo Caafimaadka / Goats: Weight, Price & Health',
             color_continuous_scale='RdYlGn'
         )
         
@@ -440,7 +440,7 @@ elif page == "📈 Sawirro / Charts":
                 'gobolka': 'Gobolka / Region',
                 'qiimaha_usd': 'Qiimaha Dhexdhexaad ($) / Average Price'
             },
-            title='Qiimaha Aria ee Gobollada / Goat Prices by Region',
+            title='Qiimaha Geela ee Gobollada / Goat Prices by Region',
             color='qiimaha_usd',
             color_continuous_scale='Greens'
         )
@@ -493,7 +493,7 @@ elif page == "📈 Sawirro / Charts":
 
 st.sidebar.markdown("---")
 st.sidebar.markdown("""
-🐐 **Ari Qiime v1.0**
+🐐 **Geel Qiime v1.0**
 
 Made with ❤️ for Somali students learning AI
 
