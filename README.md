@@ -44,4 +44,8 @@ Students will understand:
 Made for Somali UNISO students 🇸🇴
 
 ![image alt](https://github.com/mareegpost/xal-forecast/blob/748e1673b5599979a09491ded40c12aa462e9f68/Home.png)
-
+![image alt](https://github.com/mareegpost/xal-forecast/blob/7d9a7bd19034bab2088546500b1bf0e4b797acde/data.png)
+![image alt](https://github.com/mareegpost/xal-forecast/blob/7d9a7bd19034bab2088546500b1bf0e4b797acde/model.png)
+![image alt](https://github.com/mareegpost/xal-forecast/blob/7d9a7bd19034bab2088546500b1bf0e4b797acde/predict.png)
+![image alt](https://github.com/mareegpost/xal-forecast/blob/7d9a7bd19034bab2088546500b1bf0e4b797acde/predict%202.png)
+![image alt](https://github.com/mareegpost/xal-forecast/blob/7d9a7bd19034bab2088546500b1bf0e4b797acde/Charts.png)
